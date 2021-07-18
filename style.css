@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+input, select,textarea {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 30em;
+    border: solid 2px black;
+    padding: 2em;
+}
+
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    height: 2em;
+    align-items: center;
+    font-size: 0.9em;
+
+}
+
+.logoHeader {
+    height: 3.2em;
+}
+
+.linguagem {
+    display: flex;
+
+}
+
+.imgLinguagem {
+    width: 0.9em;
+    height: 1em;
+    margin-left: 0.5em;
+}
+
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6em;
+}
+
+.titulo{
+    margin-bottom: 1em;
+}
+
+.inputUsuario {
+    height: 3em;
+    margin-bottom: 2em;
+    background-color: #dddddd48;
+}
+
+.estiloBotao{
+    border: solid 0.3em #a8a5a55b;
+    padding: 1.5em;
+    border-radius: 1.5em;
+}
+
+.botaoLogar img{
+    height: 3em;
+}
+
+.botaoLogar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#logado {
+    width: 1.5em;
+}
