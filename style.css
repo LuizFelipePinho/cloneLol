@@ -14,27 +14,39 @@ input, select,textarea {
     border: 0 none;
     outline: 0;
 }
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+}
 
 .container{
     display: flex;
     flex-direction: column;
-    width: 30em;
+    width: 50vw;
+    height: 100vh;
+    padding: 5vh;
     border: solid 2px black;
-    padding: 2em;
+
+}
+
+.imgLado{
+    width: 100vw;
 }
 
 
 .cabecalho{
     display: flex;
     justify-content: space-between;
-    height: 2em;
+    height: 6vh;
     align-items: center;
-    font-size: 0.9em;
+    font-size: 0.9rem;
+    margin-bottom: 1vh;
 
 }
 
 .logoHeader {
-    height: 3.2em;
+    height: 3rem;
 }
 
 .linguagem {
@@ -43,19 +55,19 @@ input, select,textarea {
 }
 
 .imgLinguagem {
-    width: 0.9em;
-    height: 1em;
+    width: 0.9rem;
+    height: 1.1rem;
     margin-left: 0.5em;
 }
 
 .informacoes{
     display: flex;
     flex-direction: column;
-    margin-top: 6em;
+    margin-top: 4.5em;
 }
 
 .titulo{
-    margin-bottom: 1em;
+    margin-bottom: 6vh;
 }
 
 .inputUsuario {
@@ -67,11 +79,12 @@ input, select,textarea {
 .estiloBotao{
     border: solid 0.3em #a8a5a55b;
     padding: 1.5em;
-    border-radius: 1.5em;
+    border-radius: 1.2em;
+    margin: 3em;
 }
 
 .botaoLogar img{
-    height: 3em;
+    height: 1em;
 }
 
 .botaoLogar{
@@ -83,4 +96,20 @@ input, select,textarea {
 
 #logado {
     width: 1.5em;
+    
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    color:  rgb(87, 85, 85);
+    font-size: 0.8em;
+    
+
+
+
+}
+
+.versao {
+    line-height: 3.8em;
 }
